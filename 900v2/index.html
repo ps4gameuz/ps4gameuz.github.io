@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest"><head>
+<title>PS4 9.00 FW Host by ps4game.uz and dynamitebilol</title>
+<link rel="stylesheet" href="style.css">
+<script src="int64.js"></script>
+<script src="rop.js"></script>
+<script src="kexploit.js"></script>
+<script src="webkit.js"></script>
+<script src="https://kit.fontawesome.com/f1ef1e4790.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Offline kesh yozilmoqda: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Muvafaqqiaytli offline kesh qilindi ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Internetingizni o'chirib browserni qaytadan oching ...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+<h1 id="msgs">PS4 9.00 FW Host by ps4game.uz and dynamitebilol</h1>
+<hr>
+<br>
+<h1 style="font-size:18px;color:yellow;">Asosiy Payloadlar</h1>
+<button class="btn" style="color: yellow;" onclick=load_goldhen222()> GoldHEN v2.2.2 </button>
+<button class="btn" onclick=load_binloader()> Bin Loader </button>
+<br>
+<h1 style="font-size:18px;text-align:center;">Payloadlar (Tushunmasangiz tegmang!)</h1>
+<button class="btn" onclick=load_todex()> ToDex </button>
+<button class="btn" onclick=load_dumper()> App-Dumper </button>
+<button class="btn" onclick=load_ftp()> FTP </button>
+<button class="btn" onclick=load_app2usb()> App2USB </button>
+<button class="btn" onclick=load_dbackup()> DB Backup </button>
+<button class="btn" onclick=load_dbrestore()> DB Restore </button>
+<br>
+<button class="btn" onclick=load_enablebUpdates()> Enable Updates </button>
+<button class="btn" onclick=load_disableUpdates()> Disable Updates </button>
+<button class="btn" onclick=load_historyBlocker()> History Blocker </button>
+<button class="btn" onclick=load_kernelDump()> Kernel Dumper </button>
+<button class="btn" onclick=load_moduleDump()> Module Dumper </button>
+<button class="btn" onclick=load_ps4debug()> PS4 Debug </button>
+<br>
+<button class="btn" onclick=load_disbAslr()> Disable ASLR </button>
+<button class="btn" onclick=load_exitidu()> Exit IDU </button>
+<button class="btn" onclick=load_rifRen()> RIF Renamer </button>
+<button class="btn" onclick=load_permUart()> Permanent UART </button>
+<button class="btn" onclick=load_webrte()> WebRTE </button>
+<a href="http://ps4trainer.com/Trainer/index.html"><button class="btn btn-web"> PS4 Trainer Web </button></a>
+<br>
+<a href="webactivator.html"><button class="btn" style="margin-left: 77px;"> Web-Activator </button></a>
+<button class="btn btn-toolbox" onclick=load_toolbox()> Orbis-Toolbox </button>
+<button class="btn" onclick=load_fanthreshold() style="margin-right: 8px;"> Fan Threshold </button><select id="tempC"></select>&#176;C
+<br>
+<h1 style="font-size:18px;color:yellow;">Online Payloadlar</h1>
+<a href="online.html"><button class="btn btn-web" style="width: 468px;"> O'yinlar uchun modlar </button></a>
+<a href="/Users/bilol/Downloads/ps4main-main/ps4main-main/index.html"><button class="btn btn-web" style="width: 468px;"> Asosiy sahfiaga qaytish </button></a>
+<br>
+<h1 style="margin-top: 35px;color: yellow;">Proyekt asoschisi:<a href="https://instagram.com/dynamitebilol" style="color:blue; margin-left: 15px;">@dynamitebilol</a><a href="https://ps4game.uz/" style="color:blue; margin-left: 15px;">ps4game.uz</a></h1>
+	<h1><a href="https://t.me/ps4game_uz"><i class="fa-brands fa-telegram"> Telegram: @ps4game_uz |  </i></a> 
+	<a href="https://ps4game.uz/"><i class="fa-solid fa-globe"></i> Web-sayt: ps4game.uz |  </a>
+	<a href="https://instagram.com/ps4game.uz"><i class="fa-brands fa-instagram"></i> Instagram: @ps4game.uz </a></h1>
+<h1 style="margin-top: 10px;color: gray;">ps4game.uz © 2022</h1>
+<script>
+for(var i=40; i<=75; i=i+5){
+    var select = document.getElementById("tempC");
+    var option = document.createElement("OPTION");
+	select.options.add(option);
+	option.text = i;
+	option.value = i;
+}
+tempC.value=60;
+</script>
+<script>
+function load_goldhen222(){
+msgs.innerHTML="GoldHEN v2.2.2 yuklanmoqda... Iltimos kuting !!!";
+PLfile = "goldhen_2.2.2.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+
+function load_binloader(){
+msgs.innerHTML="Bin Loader yuklanmoqda... Iltimos kuting !!!";
+run_jb = "binloader";
+setTimeout(poc,1500);
+}
+
+function load_todex(){
+msgs.innerHTML="ToDex yuklanmoqda... Iltimos kuting !!!"
+PLfile = "todex.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_dumper(){
+msgs.innerHTML="App-Dumper yuklanmoqda... Iltimos kuting !!!"
+PLfile = "dumper.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_ftp(){
+msgs.innerHTML="FTP yuklanmoqda... Iltimos kuting !!!"
+PLfile = "ftp.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_app2usb(){
+msgs.innerHTML="App2USB yuklanmoqda... Iltimos kuting !!!"
+PLfile = "app2usb.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_dbackup(){
+msgs.innerHTML="DB Backup yuklanmoqda... Iltimos kuting !!!"
+PLfile = "backup.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_dbrestore(){
+msgs.innerHTML="DB Restore yuklanmoqda... Iltimos kuting !!!"
+PLfile = "restore.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_enablebUpdates(){
+msgs.innerHTML="Enable Updates yuklanmoqda... Iltimos kuting !!!"
+PLfile = "enable-updates.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_disableUpdates(){
+msgs.innerHTML="Disable Updates yuklanmoqda... Iltimos kuting !!!"
+PLfile = "disable-updates.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_historyBlocker(){
+msgs.innerHTML="History Blocker yuklanmoqda... Iltimos kuting !!!"
+PLfile = "history-blocker.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_kernelDump(){
+msgs.innerHTML="Kernel Dumper yuklanmoqda... Iltimos kuting !!!"
+PLfile = "kernel-dumper.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_moduleDump(){
+msgs.innerHTML="Module Dumper yuklanmoqda... Iltimos kuting !!!"
+PLfile = "module-dumper.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_ps4debug(){
+msgs.innerHTML="PS4 Debug yuklanmoqda... Iltimos kuting !!!"
+PLfile = "ps4debug.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_disbAslr(){
+msgs.innerHTML="Disable ASLR yuklanmoqda... Iltimos kuting !!!"
+PLfile = "disable-aslr.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_exitidu(){
+msgs.innerHTML="Exit IDU yuklanmoqda... Iltimos kuting !!!"
+PLfile = "exit-idu.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_rifRen(){
+msgs.innerHTML="RIF Renamer yuklanmoqda... Iltimos kuting !!!"
+PLfile = "rif-renamer.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_permUart(){
+msgs.innerHTML="Permanent UART yuklanmoqda... Iltimos kuting !!!"
+PLfile = "permanent-uart.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_webrte(){
+msgs.innerHTML="WebRTE yuklanmoqda... Iltimos kuting !!!"
+PLfile = "webrte.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_toolbox(){
+msgs.innerHTML="Orbis-Toolbox yuklanmoqda... Iltimos kuting !!!"
+PLfile = "Orbis-Toolbox-900.bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+
+function load_fanthreshold(){
+msgs.innerHTML="Fan Threshold yuklanmoqda... Iltimos kuting !!!"
+PLfile = "fan-threshold"+tempC.value+".bin";
+run_jb = "payload";
+setTimeout(poc,1500);
+}
+</script>
+</body>
+</html>
